@@ -1,0 +1,31 @@
+* {
+    margin: 0px 0px 0px 1px;
+}
+
+
+.name {
+    margin-left: 50px;
+}
+
+.name h1 {
+    margin-top: 150px;
+}
+
+.banner {
+    margin-bottom: 100px;
+}
+
+img {
+    height: 500px;
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    .name h1 {
+        margin-top: 50px;
+    }
+    img {
+        height: 200px;
+        margin: 0;
+    }
+}
